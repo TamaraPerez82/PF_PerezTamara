@@ -1,0 +1,18 @@
+main {
+    section {
+        .parrafo1 {
+            @include textosCentrales
+        }
+    }
+
+    div {
+        .sectionImg {
+            text-align: center;
+
+        }
+
+        .img1 {
+            @include imagenes(300px)
+        }
+    }
+}

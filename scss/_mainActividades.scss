@@ -1,0 +1,18 @@
+main {
+    section {
+        div {
+            .h2 {
+                @include titulosPrincip
+            }
+        }
+    }
+
+    div {
+        ul {
+            li {
+
+                font-size: 20px;
+            }
+        }
+    }
+}

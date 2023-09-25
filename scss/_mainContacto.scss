@@ -1,0 +1,142 @@
+main {
+    div {
+        h2 {
+            @include titulosPrincip
+        }
+    }
+
+    section {
+        div {
+            .tituloSecundario {
+                font-size: 25px;
+                font-style: $tipografiaTitulos;
+                color: rgb(46, 16, 73);
+                text-align: center;
+                margin: 0 auto;
+                width: 70%;
+                padding: 3rem;
+
+            }
+        }
+
+        .map {
+            display: flex;
+
+            justify-content: center;
+            text-align: center;
+            width: 85%;
+            height: 300px;
+            margin: 0 auto;
+        }
+
+        .ubicacion {
+            text-align: center;
+            padding: auto;
+            margin: 1.5rem;
+        }
+
+        div {
+            div {
+                .parrafo3 {
+                    padding: 1rem;
+                    font-size: 20px;
+                    font-style: arial;
+                    margin: 1rem;
+                    text-align: left;
+                }
+            }
+        }
+
+        div {
+            .formu {
+                border: rgb(131, 58, 150) solid 3px;
+                width: 450px;
+                height: 410px;
+
+                div {
+                    .form-label {
+                        display: flex;
+                        padding: auto;
+                        flex-direction: row;
+                        text-align: left;
+                        margin: 1rem;
+                        width: 400px;
+                    }
+
+                    .form-control {
+                        @extend .form-label;
+
+                    }
+
+                    .form-text {
+                        display: flex;
+                        text-align: right;
+                        margin: 20px;
+                    }
+                }
+
+                div {
+                    .form-label2 {
+                        display: flex;
+                        padding: auto;
+                        flex-direction: row;
+                        text-align: left;
+                        margin: 1rem;
+                        width: 400px;
+                    }
+                }
+
+                div {
+                    .coment {
+
+                        display: flex;
+                        text-align: left;
+                        margin: 1rem;
+                        padding: auto;
+                    }
+
+                    textarea {
+                        display: flex;
+                        position: absolute;
+                        text-align: center;
+                        overflow: hidden;
+                    }
+
+                    label {
+                        color: black;
+                        margin: 1rem;
+                        font-size: 15px;
+                    }
+                }
+
+                .miColor {
+                    display: flex;
+                    border: 2px blueviolet;
+                    color: rgb(209, 188, 230);
+                    background-color: rgb(131, 58, 150);
+                    border-radius: 2.5px;
+                    margin: 7.5rem;
+                    margin-left: 1.5rem;
+                    padding: 4px;
+                    text-align: left;
+                }
+
+                .miColor:hover {
+                    background-color: #8d4ea3;
+                    color: rgb(30, 11, 48);
+                }
+            }
+        }
+
+        div {
+            .parrafo3 {
+                padding: 1rem;
+                font-size: 20px;
+                font-style: arial;
+                margin: 1rem;
+                text-align: center;
+
+            }
+        }
+    }
+}

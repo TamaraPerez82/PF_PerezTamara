@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-widht: 480px) {
+  nav div .contLogo .logo {
+    width: 50px;
+    margin: auto;
+  }
+  div .formu {
+    display: flex;
+    flex-direction: initial;
+    justify-content: left;
+    width: 350px;
+    height: 300px;
+  }
+  .contact {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+body {
+  background-color: rgb(221, 204, 238);
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .header {
+  background: #86479c;
+  background-image: linear-gradient(0deg, rgb(127, 31, 218) 19%, rgb(99, 9, 99) 100%);
+  padding: 1rem;
+  margin: 10px;
+}
+body .header h1 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(208, 196, 219);
+  font-style: Arial, Helvetica, sans-serif;
+  animation-duration: 5s;
+  animation-name: titulo;
+  animation-iteration-count: infinite;
+}
+@keyframes titulo {
+  0% {
+    opacity: 0.2;
+    color: rgb(190, 173, 206);
+  }
+  50% {
+    opacity: 1;
+    color: rgb(177, 171, 184);
+  }
+  100% {
+    opacity: 0.3;
+    color: rgb(208, 196, 219);
+  }
+}
+body .header nav div .contLogo .logo {
+  width: 100px;
+  border-radius: 50%;
+}
+body .header nav div a {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(53, 8, 83);
+  text-decoration: none;
+}
+body .header nav div a:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 1.4s ease;
+}
+body .header nav div .contMenu {
+  padding: 1rem;
+  justify-content: end;
+}
+body .header nav div .tamanoLetra {
+  font-size: 40px;
+}
+
+main section .parrafo1 {
+  padding: 1rem;
+  line-height: 1.5;
+  font-style: Arial, Helvetica, sans-serif;
+  margin: 2rem;
+}
+main div .sectionImg {
+  text-align: center;
+}
+main div .img1 {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  border-radius: 1rem;
+  width: 300px;
+}
+
+footer div .lI {
+  display: flex;
+  text-align: center;
+  width: 50px;
+  margin: auto;
+  border-radius: 1rem;
+}
+footer div .lI:hover {
+  transform: scale(1.3, 1.3);
+  transition: all 1.5s ease;
+}
+
+main section h2 {
+  padding: 10px;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(131, 58, 150);
+  font-size: Arial, Helvetica, sans-serif;
+}
+main div .img2 {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  border-radius: 1rem;
+  width: 380px;
+}
+main section .parrafo1 {
+  padding: 1rem;
+  line-height: 1.5;
+  font-style: Arial, Helvetica, sans-serif;
+  margin: 2rem;
+}
+
+main div h2 {
+  padding: 10px;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(131, 58, 150);
+  font-size: Arial, Helvetica, sans-serif;
+}
+main section div .tituloSecundario {
+  font-size: 25px;
+  font-style: Arial, Helvetica, sans-serif;
+  color: rgb(46, 16, 73);
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+  padding: 3rem;
+}
+main section .map {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 85%;
+  height: 300px;
+  margin: 0 auto;
+}
+main section .ubicacion {
+  text-align: center;
+  padding: auto;
+  margin: 1.5rem;
+}
+main section div div .parrafo3 {
+  padding: 1rem;
+  font-size: 20px;
+  font-style: arial;
+  margin: 1rem;
+  text-align: left;
+}
+main section div .formu {
+  border: rgb(131, 58, 150) solid 3px;
+  width: 450px;
+  height: 410px;
+}
+main section div .formu div .form-label, main section div .formu div .form-control {
+  display: flex;
+  padding: auto;
+  flex-direction: row;
+  text-align: left;
+  margin: 1rem;
+  width: 400px;
+}
+main section div .formu div .form-text {
+  display: flex;
+  text-align: right;
+  margin: 20px;
+}
+main section div .formu div .form-label2 {
+  display: flex;
+  padding: auto;
+  flex-direction: row;
+  text-align: left;
+  margin: 1rem;
+  width: 400px;
+}
+main section div .formu div .coment {
+  display: flex;
+  text-align: left;
+  margin: 1rem;
+  padding: auto;
+}
+main section div .formu div textarea {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+}
+main section div .formu div label {
+  color: black;
+  margin: 1rem;
+  font-size: 15px;
+}
+main section div .formu .miColor {
+  display: flex;
+  border: 2px blueviolet;
+  color: rgb(209, 188, 230);
+  background-color: rgb(131, 58, 150);
+  border-radius: 2.5px;
+  margin: 7.5rem;
+  margin-left: 1.5rem;
+  padding: 4px;
+  text-align: left;
+}
+main section div .formu .miColor:hover {
+  background-color: #8d4ea3;
+  color: rgb(30, 11, 48);
+}
+main section div .parrafo3 {
+  padding: 1rem;
+  font-size: 20px;
+  font-style: arial;
+  margin: 1rem;
+  text-align: center;
+}
+
+main section div .h2 {
+  padding: 10px;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(131, 58, 150);
+  font-size: Arial, Helvetica, sans-serif;
+}
+main div ul li {
+  font-size: 20px;
+}
+
+main section .h2 {
+  padding: 10px;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(131, 58, 150);
+  font-size: Arial, Helvetica, sans-serif;
+}
+main .contFotos {
+  padding: 2rem;
+}
+main .card-body .card-title {
+  display: flex;
+  padding: 20px;
+  color: rgb(90, 18, 158);
+  font-size: 20px;
+  text-align: left;
+}
+
+/*# sourceMappingURL=estilo.css.map */

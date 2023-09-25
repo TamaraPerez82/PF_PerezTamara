@@ -1,0 +1,19 @@
+main {
+    section {
+        h2 {
+            @include titulosPrincip
+        }
+    }
+
+    div {
+        .img2 {
+            @include imagenes(380px)
+        }
+    }
+
+    section {
+        .parrafo1 {
+            @include textosCentrales
+        }
+    }
+}
